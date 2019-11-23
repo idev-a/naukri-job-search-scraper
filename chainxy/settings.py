@@ -25,6 +25,10 @@ FEED_EXPORT_FIELDS = ['username', 'years_experience', 'current_salary', 'current
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
 
 
+HTTPERROR_ALLOWED_CODES  =[404]
+
+HTTPERROR_ALLOW_ALL = True
+
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
